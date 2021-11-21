@@ -4,9 +4,9 @@
 
 
 .btn-main {
-    @apply text-center uppercase w-[186px] h-[48px] bg-primary;
+    @apply text-center  w-full uppercase md:w-[186px] h-[48px] bg-primary;
 }
 
 .btn-sub {
-    @apply uppercase w-[176px] h-[48px] border-[1px] rounded-[4px];
+    @apply uppercase mt-4 md:mt-0 w-full md:w-[176px] h-[48px] border-[1px] rounded-[4px];
 }
